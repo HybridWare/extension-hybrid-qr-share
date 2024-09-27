@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "Hybrid QR Share",
+	"version": "1.1.1",
+
+	"description": "Share and load QR Codes",
+
+	"permissions": [
+		"tabs",
+		"contextMenus"
+	],
+
+	"browser_action": {
+		"default_icon": {
+			"32": "QRScan.png"
+		},
+		"default_title": "QR Share"
+	},
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"web_accessible_resources": ["QRScan.png"]
+}

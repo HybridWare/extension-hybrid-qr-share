@@ -1,0 +1,45 @@
+@import url("hybrid://theme/vars.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+	padding: 0px;
+	margin: 0px;
+	background: var(--ag-theme-background);
+	color: var(--ag-theme-text);
+	font-family: var(--ag-theme-font-family);
+}
+
+button {
+	border: 1px solid var(--ag-theme-primary);
+	background: none;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 1em;
+	min-width: 256px;
+	display: block;
+}
+
+#qr {
+	flex: 1;
+	display: flex;
+}
+
+#qr img {
+	flex:1;
+	min-width: 256px;
+	min-height: 256px;
+	object-fit: contain;
+}
+
+#reader {
+  width: 512px;
+  height: 256px;
+}
+
+.hidden {
+	display: none !important;
+}
